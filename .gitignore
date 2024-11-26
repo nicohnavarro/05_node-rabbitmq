@@ -1,0 +1,31 @@
+# Ignore node_modules folder at the root (shared across workspaces)
+node_modules/
+
+# Ignore node_modules in each subfolder, if present
+**/node_modules/
+
+# Ignore build outputs
+**/dist/
+
+# Ignore TypeScript cache
+**/.tsbuildinfo
+
+# Ignore pnpm lock file (only if you don't want to track it, but it's recommended to track it)
+# pnpm-lock.yaml
+
+# Ignore IDE-specific files (VSCode, etc.)
+.vscode/
+.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Optional: ignore coverage reports if you're using testing tools like Jest
+coverage/
